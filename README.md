@@ -8,7 +8,7 @@ Introduction to the DOM
 
 ## What does "DOM" stand for?
 
-_D_ocument _O_bject _M_odel
+Document Object Model
 
 ## Is the DOM just my HTML?
 
@@ -32,7 +32,13 @@ Essentially, the DOM structures our HTML as _document_, with which we can then i
 
 ## How is the DOM structured?
 
-The DOM is essentially one big nested object. (!!!) This means that we can traverse it starting at a known root (usually the `body`, which we can access at `document.body`) all the way down to the most deeply nested element.
+The DOM is essentially one big nested object.
+
+(!!!)
+
+Hold up. Like a JavaScript object?
+
+Basically. You can interact with it like you would just about any ol' JS object, except that it has a few special properties. This means that we can traverse it starting at a known root (usually the `body`, which we can access at `document.body`) all the way down to the most deeply nested element.
 
 ## What does the DOM look like?
 
@@ -51,11 +57,11 @@ Well, in its most presentable form, it looks like the web page that we're on rig
 </html>
 ```
 
-Notice that our very first tag is `<html>` — "HTML" stands for _H_yper_T_ext _M_arkup _L_anguage, and its the language that these tags are written in.
+Notice that our very first tag is `<html>` — "HTML" stands for HyperText Markup Language, and it's the language that these tags are written in.
 
 Then we have a `<head>` tag. Anything that appears between `<head>` and `</head>` (the `/` tells us that it's a closing element) won't show up directly on the page. `<title>Hello!</title>` sets the title of the page to "Hello!" (you can see the title of any page at the top of that page's tab).
 
-Then we have `<body>`, which is closed with `</body>`. Anything that appears here will show up on the page — in this case, we have a `<div>`, which is the main _div_iding element on the page (for setting off different parts of the document) and a `<p>` tag, which stands for _p_aragraph (and contains text).
+Then we have `<body>`, which is closed with `</body>`. Anything that appears here will show up on the page — in this case, we have a `<div>`, which is the main _div_iding element on the page (for setting off different parts of the document) and a `<p>` tag, which stands for paragraph (and contains text).
 
 Finally, we close the document with `</html>`.
 
@@ -79,7 +85,7 @@ Well, that's the thing. You can add JavaScript directly between the `<body>` tag
 </html>
 ```
 
-If you put that into any text file, save the file as something like `index.html`, and open it in any web browser, you should see an alert that says, "hi there!".
+Open up a text file (we've provided an empty `index.html` in this repo for you), save the file as something like `index.html`, and open it in any web browser, you should see an alert that says, "hi there!".
 
 ## I thought you said we could manipulate the DOM with JavaScript?
 
