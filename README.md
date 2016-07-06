@@ -1,5 +1,4 @@
-Introduction to the DOM
----
+# Introduction to the DOM
 
 ## Objectives
 
@@ -61,7 +60,7 @@ Notice that our very first tag is `<html>` — "HTML" stands for HyperText Marku
 
 Then we have a `<head>` tag. Anything that appears between `<head>` and `</head>` (the `/` tells us that it's a closing element) won't show up directly on the page. `<title>Hello!</title>` sets the title of the page to "Hello!" (you can see the title of any page at the top of that page's tab).
 
-Then we have `<body>`, which is closed with `</body>`. Anything that appears here will show up on the page — in this case, we have a `<div>`, which is the main _div_iding element on the page (for setting off different parts of the document) and a `<p>` tag, which stands for paragraph (and contains text).
+Then we have `<body>`, which is closed with `</body>`. Anything that appears here will show up on the page — in this case, we have a `<div>`, which is the main __div__iding element on the page (for setting off different parts of the document) and a `<p>` tag, which stands for paragraph (and contains text).
 
 Finally, we close the document with `</html>`.
 
@@ -125,3 +124,5 @@ Can you change the above so that it says something awesome? Maybe make the greet
 - [div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 - [p](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 - [script](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-the-dom'>Intro To The DOM</a> on Learn.co and start learning to code for free.</p>
