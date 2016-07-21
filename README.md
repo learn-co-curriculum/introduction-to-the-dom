@@ -27,7 +27,7 @@ You betcha. JavaScript can update just about any aspect of the DOM, including ad
 
 > A Web page is a document. This document can be either displayed in the browser window, or as the HTML source. But it is the same document in both cases. The Document Object Model (DOM) provides another way to represent, store and manipulate that same document. The DOM is a fully object-oriented representation of the web page, and it can be modified with a scripting language such as JavaScript.
 
-Essentially, the DOM structures our HTML as _document_, with which we can then interact. Most of interactions happen through APIs exposed by DOM nodes, which are the elements on the page.
+Essentially, the DOM structures our HTML as _document_, with which we can then interact. Most of the interactions happen through APIs exposed by DOM nodes, which are the elements on the page.
 
 ## How is the DOM structured?
 
