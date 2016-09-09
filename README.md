@@ -84,7 +84,7 @@ Well, that's the thing. You can add JavaScript directly between the `<body>` tag
 </html>
 ```
 
-Open up a text file (we've provided an empty `index.html` in this repo for you), save the file as something like `index.html`, and open it in any web browser, you should see an alert that says, "hi there!".
+We've provided an empty `index.html` in this Github repo for you. Open the file by clicking "Raw" and save it locally as something like `index.html`. Paste in the code above and re-save the file. When you open it in any web browser, you should see an alert that says, "hi there!".
 
 ## I thought you said we could manipulate the DOM with JavaScript?
 
