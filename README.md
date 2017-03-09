@@ -134,6 +134,11 @@ We learned a lot in this section.  This is what we learned.
 * We can also view our Document Object Model by opening the console and typing in the word `document`.
 * We can select a specific piece of the DOM by using javascript, such as `document.querySelector('header')`, and we can also use javascript to alter our DOM with `document.querySelector('header').remove()`
 
+
+### What's next 
+
+Next we'll take a deeper look at how to select elements!
+
 ## Resources
 
 - [CSS Tricks - What is the DOM?](https://css-tricks.com/dom/)
