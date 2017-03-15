@@ -68,7 +68,7 @@ The best way to describe the Document Object Model, is to see and interact with 
 ![alt text][delete-body]
 [delete-body]: https://s3.amazonaws.com/learn-verified/delete-body.gif
 
-> When you open the Google Developer Console (or firebug), you will see what looks like HTML.  There are head tags, body tags, divs, etc.  Now from inside the developer console, click on the element that says body, and then press the delete button on your keyboard.  You should see webpage turn white.
+> When you open the Google Developer Console (or Firefox Web Console), you will see what looks like HTML.  There are head tags, body tags, divs, etc.  Now from inside the developer console, click on the element that says body, and then press the delete button on your keyboard.  You should see webpage turn white.
 
 
 
@@ -145,3 +145,5 @@ Next we'll take a deeper look at how to select elements!
 - [MDN - The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-the-dom'>Intro To The DOM</a> on Learn.co and start learning to code for free.</p>
