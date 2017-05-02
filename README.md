@@ -87,7 +87,7 @@ So the HTML is essentially the starting point of the page's content.  But as we 
 
 Ok, so what does this have to do with Javascript?  
 
-Well with Javascript we can (1) view a current representation of our Document Object Model.  With Javascript we can also (2) select specific portions of the DOM, and manipulate them, which changes what shows up in a browser window. 
+Well, with Javascript we can (1) view a current representation of our Document Object Model.  With Javascript we can also (2) select specific portions of the DOM, and manipulate them, which changes what shows up in a browser window. 
 
 Let's get to it. 
 
@@ -134,5 +134,4 @@ Next we'll take a deeper look at how to select elements!
 
 - [CSS Tricks - What is the DOM?](https://css-tricks.com/dom/)
 - [MDN - The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-
 
