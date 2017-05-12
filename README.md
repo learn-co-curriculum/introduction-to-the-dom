@@ -15,14 +15,12 @@ In this lesson, we will discuss the difference between HTML and something new: t
 
 2. Right click and view source
 
-	Here's how you do it. Right click (or two finger click if you have a mac) on your browser. You should see a dropdown menu. Towards the bottom, you will see an option to 'view page source'. Click on that.  
+	Here's how you do it. Right click (or two finger click if you have a mac) on your browser. You should see a dropdown menu. Towards the bottom, you will see an option to 'inspect'. Click on that.  
 
 ![dev-tools](https://s3.amazonaws.com/learn-verified/inspect-element.png)
 
 
-If you examine the newly opened tab, you will see the HTML used to construct the page you were viewing.  
-
-It will look something like this:
+This will open up a panel in your web browser (probably at the bottom). It will look something like this:
 
 ![html](https://s3.amazonaws.com/learn-verified/dom-dev-tools.png)
 
@@ -52,7 +50,7 @@ But it is not displaying the HTML, it's displaying the Document Object Model. Wh
 
 The best way to describe the Document Object Model, is to see and interact with it. Let's get to it.
 
-#### 1. Open the console 
+#### 1. Open the console (if that 'inspect' window is still open, just click on the tab that says Console!)
 
 ![opening-console](https://s3.amazonaws.com/learn-verified/opening-console.gif)
 	
@@ -62,9 +60,7 @@ The best way to describe the Document Object Model, is to see and interact with 
 
 ![delete-body](https://s3.amazonaws.com/learn-verified/delete-body.gif)
 
-> When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says body, and then press the delete button on your keyboard. You should see webpage turn white.
-
-
+> When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says body, and then press the delete button on your keyboard. You should see webpage turn white. (You'll have to re-fresh the page to get it back!)
 
 Now did you just delete the HTML? No. Let's prove it. 
 
