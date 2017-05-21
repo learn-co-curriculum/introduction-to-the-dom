@@ -60,11 +60,11 @@ The best way to describe the Document Object Model, is to see and interact with 
 
 #### 2. Manipulate the DOM
 
-![delete-body](https://s3.amazonaws.com/learn-verified/delete-body.gif)
+![delete-header](http://web-dev-readme-photos.s3.amazonaws.com/js/header-click.png)
 
-> When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says body, and then press the delete button on your keyboard. You should see webpage turn white.
+> When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says `header`, and then press the delete button on your keyboard. You should see the header at the top turn white. You just deleted it!
 
-
+![deleted-header](http://web-dev-readme-photos.s3.amazonaws.com/js/deleted-header.png)
 
 Now did you just delete the HTML? No. Let's prove it. 
 
@@ -75,6 +75,9 @@ View the page source. Right click (or two fingers click on the mac) on the lesso
 The changes that the **developer console** caused, and the changes it currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing body in our DOM, even though our HTML still has content in the body tags.  
 
 So what are we concluding? We're concluding that by changing the Document Object Model, we can change the way our webpage displays. And we can do this even if our HTML is unchanged.  
+
+**Since we didn't actually modify the HTML, to get your header back just refresh!**
+
 
 ### Tell it to me in bullet points
 
@@ -113,7 +116,7 @@ It retrieves the header tag, which contains the lesson title among other things.
    document.querySelector('header').remove()
 ```
 
-Take a look at the top of the page again. The header is gone. But do you think the HTML has just changed? Well, no. As you know, the HTML never changes after it is first rendered. Instead, we accessed the Document Object Model, altered the model and that altered the appearance of our web page.  
+Take a look at the top of the page again. The header is gone. But do you think the HTML has just changed? Well, no. As you know, the HTML never changes after it is first rendered. Instead, we accessed the Document Object Model, altered the model and that altered the appearance of our web page. This is the same as we did before, but with code. **To get the header back, just hit refresh**
 
 ### Summary
 
@@ -123,6 +126,7 @@ We learned a lot in this section. This is what we learned.
 * We can view and manipulate the Document Object Model by opening our developer tools, but when we do so the HTML is not changed.  
 * We can also view our Document Object Model by opening the console and typing in the word `document`.
 * We can select a specific piece of the DOM by using Javascript, such as `document.querySelector('header')`, and we can also use Javascript to alter our DOM with `document.querySelector('header').remove()`
+* **To get your header back, just hit refresh**
 
 
 ### What's next 
