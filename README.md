@@ -39,6 +39,7 @@ Notice that what we see in our developer tools looks very similar to the code we
 	      <link rel="stylesheet" href="style.css">
   	</head>
   <body>
+    <header>....</header>
     <img id="kitten" class="" src="http://makeameme.org/media/templates/120/grumpy_cat.jpg" alt="" width="120" height="120">
   </body>
   <script src="https://raw.githubusercontent.com/learn-co-curriculum/js-and-the-web/master/spin.js" charset="utf-8"></script>
@@ -68,11 +69,11 @@ The best way to describe the Document Object Model, is to see and interact with 
 
 Now did you just delete the HTML? No. Let's prove it. 
 
-View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source. You will see the that the HTML is just as it always was, with a body tag and lots of other elements inside.  
+View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source. You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
 
 ![html-source](https://s3.amazonaws.com/learn-verified/html-javascript-lesson.png)
 
-The changes that the **developer console** caused, and the changes it currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing body in our DOM, even though our HTML still has content in the body tags.  
+The changes that the **developer console** caused, and the changes it currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing header in our DOM, even though our HTML still has content in the header tags.  
 
 So what are we concluding? We're concluding that by changing the Document Object Model, we can change the way our webpage displays. And we can do this even if our HTML is unchanged.  
 
@@ -84,7 +85,7 @@ So what are we concluding? We're concluding that by changing the Document Object
   * The Document Object Model is a representation of the *current view* of the browser, and can be manipulated without reloading a page.  
   * The HTML is the text in a file first used to display the page.
 
-So the HTML is essentially the starting point of the page's content. But as we just saw by deleting the body of the page, what is displayed can change. When we change it, we change the Document Object Model, and that changes the appearance in the browser. The HTML, however, once loaded on a webpage, does not change.  
+So the HTML is essentially the starting point of the page's content. But as we just saw by deleting the header of the page, what is displayed can change. When we change it, we change the Document Object Model, and that changes the appearance in the browser. The HTML, however, once loaded on a webpage, does not change.  
 
 ### This is still about Javascript right
 
@@ -98,7 +99,7 @@ Let's get to it.
 
 	From inside the developer console, click on the tab that says the word console. Then at the bottom you will see a cursor.  
 	
-	There, type the word `document` and press Enter. You'll get a `#document` returned. Click the Triangle and you'll see the DOM! If you followed along above, you'll see a `head` tag, but no `body` tag. So by typing in `document` it looks like our body is gone. The page displays our body as gone. However, if we view page source, the HTML is unchanged. Remember, this is the difference between the DOM (current representation of the page) and the HTML (The initial representation of the page).
+	There, type the word `document` and press Enter. You'll get a `#document` returned. Click the Triangle and you'll see the DOM! If you followed along above, you'll see a `head` tag, but no `header` tag. So by typing in `document` it looks like our header is gone. The page displays our header as gone. However, if we view page source, the HTML is unchanged. Remember, this is the difference between the DOM (current representation of the page) and the HTML (The initial representation of the page).
 
 2. Use Javascript to manipulate our DOM
 
