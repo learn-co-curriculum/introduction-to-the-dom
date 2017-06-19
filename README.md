@@ -77,9 +77,6 @@ The changes that the **developer console** caused, and the changes it currently 
 
 So what are we concluding? We're concluding that by changing the Document Object Model, we can change the way our webpage displays. And we can do this even if our HTML is unchanged.  
 
-**Since we didn't actually modify the HTML, to get your header back just refresh!**
-
-
 ### Tell it to me in bullet points
 
   * The Document Object Model is a representation of the *current view* of the browser, and can be manipulated without reloading a page.  
@@ -103,7 +100,7 @@ Let's get to it.
 
 2. Use Javascript to manipulate our DOM
 
-Real fast, let's see this. Open up the console and type in the following and press Enter.
+**Refresh your browser to get the header back** Let's remove the header now with Javascript. Open up the console and type in the following and press Enter.
 
   ```javascript
    document.querySelector('header')
