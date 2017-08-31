@@ -28,7 +28,7 @@ It will look something like this:
 
 The browser interprets this, along with the styles (CSS) and Javascript to construct the appearances in the browser.  
 
-Notice that what we see in our developer tools looks very similar to the code we've seen to render HTML in previous lessons. 
+Notice that what we see in our developer tools looks very similar to the code we've seen to render HTML in previous lessons.
 
 ```html
 <!DOCTYPE html>
@@ -53,11 +53,11 @@ But it is not displaying the HTML, it's displaying the Document Object Model. Wh
 
 The best way to describe the Document Object Model, is to see and interact with it. Let's get to it.
 
-#### 1. Open the console 
+#### 1. Open the console
 
 ![opening-console](https://s3.amazonaws.com/learn-verified/opening-console.gif)
-	
-> From the learn webpage, look at the menu at the chrome menu at the top of the page, and click on view, then at the very bottom of the view dropdown it says developer. Upon clicking on developer at the bottom of that you will see Developer Tools. Click on Developer Tools. This will pop up the Google Developer Console. 
+
+> From this webpage, look at the Chrome menubar at the top of the page. Click on "View", then select "Developer", then "Developer Tools". This will open the Google Developer Console.
 
 #### 2. Manipulate the DOM
 
@@ -67,7 +67,7 @@ The best way to describe the Document Object Model, is to see and interact with 
 
 ![deleted-header](http://web-dev-readme-photos.s3.amazonaws.com/js/deleted-header.png)
 
-Now did you just delete the HTML? No. Let's prove it. 
+Now did you just delete the HTML? No. Let's prove it.
 
 View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source. You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
 
@@ -88,14 +88,14 @@ So the HTML is essentially the starting point of the page's content. But as we j
 
 Ok, so what does this have to do with Javascript?  
 
-Well, with Javascript we can (1) view a current representation of our Document Object Model. With Javascript we can also (2) select specific portions of the DOM, and manipulate them, which changes what shows up in a browser window. 
+Well, with Javascript we can (1) view a current representation of our Document Object Model. With Javascript we can also (2) select specific portions of the DOM, and manipulate them, which changes what shows up in a browser window.
 
-Let's get to it. 
+Let's get to it.
 
 1. Use Javascript to view the current representation of the DOM
 
 	From inside the developer console, click on the tab that says the word console. Then at the bottom you will see a cursor.  
-	
+
 	There, type the word `document` and press Enter. You'll get a `#document` returned. Click the Triangle and you'll see the DOM! If you followed along above, you'll see a `head` tag, but no `header` tag. So by typing in `document` it looks like our header is gone. The page displays our header as gone. However, if we view page source, the HTML is unchanged. Remember, this is the difference between the DOM (current representation of the page) and the HTML (The initial representation of the page).
 
 2. Use Javascript to manipulate our DOM
@@ -105,7 +105,7 @@ Let's get to it.
   ```javascript
    document.querySelector('header')
   ```
-  
+
 This will return something like this: `<header class="site-header">...</header>`. Go ahead and click on that display triangle to see more.
 
 It retrieves the header tag, which contains the lesson title among other things. Ok, now let's do something with this header. Open up the console, and type in the following:
@@ -127,7 +127,7 @@ We learned a lot in this section. This is what we learned.
 * **To get your header back, just hit refresh**
 
 
-### What's next 
+### What's next
 
 Next, we'll take a deeper look at how to select elements!
 
@@ -135,4 +135,3 @@ Next, we'll take a deeper look at how to select elements!
 
 - [CSS Tricks - What is the DOM?](https://css-tricks.com/dom/)
 - [MDN - The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-
