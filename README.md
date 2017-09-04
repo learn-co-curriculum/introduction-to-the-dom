@@ -8,27 +8,22 @@
 
 ### Back to our HTML
 
-In this lesson, we will discuss the difference between HTML and something new: the Document Object Model. Now, we can see the HTML that constructs any website we visit. Let's learn how.
+In this lesson, we will discuss the difference between HTML and something new: the Document Object Model. Now, we can see the HTML that constructs any website we visit. Let's learn how we can see the HTML of any site.
 
 > Note: We recommend that you use Google Chrome.  (You can download chrome [here](https://www.google.com/chrome/browser/desktop/index.html)). Chrome has many features that are developer friendly, and because of that, it is one of the tools that many developers use.
 
 
-2. Right click and view source
+2. Change the url of your website to view source
 
-	Here's how you do it. Right click (or two finger click if you have a mac) on your browser. You should see a dropdown menu. Towards the bottom, you will see an option to 'view page source'. Click on that.  
+	Here's how you do it. From a Google chrome browser, go to the url of a webpage.  We are going to the page `https://learn.co/tracks/javascript-with-style`.  Then to see the HTML of that page simply, add on `view-source:` to the front of the url.  So we are changing our url to `view-source:https://learn.co/tracks/javascript-with-style`.
 
-![dev-tools](https://s3.amazonaws.com/learn-verified/inspect-element.png)
+If you examine this tab, you will see the HTML used to construct the page you were viewing.  It will look something like this:
 
-
-If you examine the newly opened tab, you will see the HTML used to construct the page you were viewing.  
-
-It will look something like this:
-
-![html](https://s3.amazonaws.com/learn-verified/dom-dev-tools.png)
+![html-source](https://s3.amazonaws.com/learn-verified/html-javascript-lesson.png)
 
 The browser interprets this, along with the styles (CSS) and Javascript to construct the appearances in the browser.  
 
-Notice that what we see in our developer tools looks very similar to the code we've seen to render HTML in previous lessons.
+Notice that what we see in our the view source tab looks very similar to HTML you may have seen previously.
 
 ```html
 <!DOCTYPE html>
@@ -47,7 +42,7 @@ Notice that what we see in our developer tools looks very similar to the code we
 
 ```
 
-But it is not displaying the HTML, it's displaying the Document Object Model. What does that mean?
+It may look like our browser is simply displaying the HTML that we see, but it is not.  Instead, our browser is directly displaying the Document Object Model of the respective webpage. What does that mean?  What is the Document Object Model, and how is it different than the HTML for the page?
 
 ### So then what is the Document Object Model
 
@@ -69,11 +64,11 @@ The best way to describe the Document Object Model, is to see and interact with 
 
 Now did you just delete the HTML? No. Let's prove it.
 
-View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source. You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
+View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source.  You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
 
 ![html-source](https://s3.amazonaws.com/learn-verified/html-javascript-lesson.png)
 
-The changes that the **developer console** caused, and the changes it currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing header in our DOM, even though our HTML still has content in the header tags.  
+The changes that the **developer console** caused, and the changes the **developer console** currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing header in our DOM, even though our HTML still has content in the header tags.  
 
 So what are we concluding? We're concluding that by changing the Document Object Model, we can change the way our webpage displays. And we can do this even if our HTML is unchanged.  
 
