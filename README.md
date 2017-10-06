@@ -102,7 +102,7 @@ Let's get to it.
 **Refresh your browser to get the body content back** Now let's start over and remove the body tag **with JavaScript**. Open up the console and type in the following and press Enter.
 
   ```javascript
-   document.querySelector('body')
+   document.querySelector('header')
   ```
 
 This will return something like this: 
@@ -140,3 +140,5 @@ Next, we'll take a deeper look at how to select elements!
 
 - [CSS Tricks - What is the DOM?](https://css-tricks.com/dom/)
 - [MDN - The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-the-dom'>Introduction To The DOM</a> on Learn.co and start learning to code for free.</p>
