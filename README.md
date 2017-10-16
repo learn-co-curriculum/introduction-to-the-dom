@@ -62,7 +62,7 @@ The best way to understand the Document Object Model, is to see and interact wit
 ![clicking-body](./clicking-body.png)
 
 
-When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says `body`, and then press the delete button on your keyboard. You should the content of your wikipedia page disappear. You just deleted it!
+When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says `body`, and then press the delete button on your keyboard. You should see the content of your wikipedia page disappear. You just deleted it!
 
 ![deleted-body](./deleted-wiki.png)
 
@@ -140,3 +140,5 @@ Next, we'll take a deeper look at how to select elements!
 
 - [CSS Tricks - What is the DOM?](https://css-tricks.com/dom/)
 - [MDN - The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-the-dom'>Introduction To The DOM</a> on Learn.co and start learning to code for free.</p>
