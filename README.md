@@ -68,7 +68,7 @@ When you open the Google Developer Console, you will see what looks like HTML. T
 
 Now did you just delete the HTML? No. Let's prove it.
 
-View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source.  You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
+View the page source. Right click (or two fingers click on the mac) on the wikipedia page in the browser and select view page source. You will see that the HTML is just as it always was, with a header tag and lots of other elements inside.  
 
 ![html-source](./wikipedia-html.png)
 
@@ -140,3 +140,5 @@ Next, we'll take a deeper look at how to select elements!
 
 - [CSS Tricks - What is the DOM?](https://css-tricks.com/dom/)
 - [MDN - The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-the-dom'>Introduction To The DOM</a> on Learn.co and start learning to code for free.</p>
