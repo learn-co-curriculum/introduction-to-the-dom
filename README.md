@@ -1,5 +1,5 @@
 # Introduction to the DOM
-
+please error
 ## Objectives
 
 1. Explain what the DOM is
@@ -8,7 +8,7 @@
 
 ### Back to our HTML
 
-In this lesson, we will discuss the difference between HTML and something new: the Document Object Model. HTML that constructs any website that we visit. In fact, let's learn how we can see the HTML of any site.
+In this lesson, we will discuss the difference between HTML and something new: the Document Object Model. HTML that constructs any website that we visit. In fact, let's learn how to can see the HTML of any site.
 
 > Note: We recommend that you use Google Chrome.  (You can download chrome [here](https://www.google.com/chrome/browser/desktop/index.html)). Chrome has many features that are developer friendly, and because of that, it is one of the tools that many developers use.
 
