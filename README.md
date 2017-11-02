@@ -81,7 +81,7 @@ So what are we concluding? We're concluding that by changing the Document Object
   * The Document Object Model is a representation of the *current view* of the browser, and can be manipulated without reloading a page.  
   * The HTML is the text in a file first used to display the page.
 
-So the HTML is essentially the starting point of the page's content. But as we just saw by deleting the header of the page, what is displayed can change. When we change it, we change the Document Object Model, and that changes the appearance in the browser. The HTML, however, once loaded on a webpage, does not change.  
+So the HTML is essentially the starting point of the page's content. But as we just saw by deleting the body of the page, what is displayed can change. When we change it, we change the Document Object Model, and that changes the appearance in the browser. The HTML, however, once loaded on a webpage, does not change.  
 
 ### This is still about Javascript, right?
 
@@ -108,18 +108,18 @@ Let's get to it.
 This will return something like this: 
 
 ```js
-<header class="site-header">...</header>
+<body class="srp tbo vasq">...</body>
 ```
 
 Go ahead and click on that display triangle to see more.
 
-It retrieves the header tag, which contains the lesson title among other things. Ok, now let's do something with this header. Open up the console, and type in the following:
+It retrieves the body tag, which contains the web page. Ok, now let's do something with this body. Open up the console, and type in the following:
 
 ```javascript
-   document.querySelector('header').remove()
+   document.querySelector('body').remove()
 ```
 
-Take a look at the top of the page again. The header is gone. But do you think the HTML has just changed? Well, no. As you know, the HTML never changes after it is first rendered. Instead, we accessed the Document Object Model, altered the model and that altered the appearance of our web page. This is the same as we did before, but with code. **To get the header back, just hit refresh**
+Take a look at the top of the page again. The body is gone. But do you think the HTML has just changed? Well, no. As you know, the HTML never changes after it is first rendered. Instead, we accessed the Document Object Model, altered the model and that altered the appearance of our web page. This is the same as we did before, but with code. **To get the body back, just hit refresh**
 
 ### Summary
 
@@ -128,8 +128,8 @@ We learned a lot in this section. This is what we learned.
 * HTML is a markup language used to display content in a browser. When we change the appearance of a webpage, what we are really changing is the Document Object Model, which directly determines the appearance displayed in the browser.  
 * We can view and manipulate the Document Object Model by opening our developer tools, but when we do so the HTML is not changed.  
 * We can also view our Document Object Model by opening the console and typing in the word `document`.
-* We can select a specific piece of the DOM by using Javascript, such as `document.querySelector('header')`, and we can also use Javascript to alter our DOM with `document.querySelector('header').remove()`
-* **To get your header back, just hit refresh**
+* We can select a specific piece of the DOM by using Javascript, such as `document.querySelector('body')`, and we can also use Javascript to alter our DOM with `document.querySelector('body').remove()`
+* **To get your body back, just hit refresh**
 
 
 ### What's next
