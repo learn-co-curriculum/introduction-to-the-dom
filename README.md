@@ -53,7 +53,7 @@ The best way to understand the Document Object Model, is to see and interact wit
 
 ![opening-console](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/opening-console.gif)
 
-> From the webpage displaying Wikipedia, right click (or two fingers click on a Mac) and select the select the last option in the dropdown that you see, labeled "inspect".  The Google Develepor console will either pop up on the right or the bottom of your screen.
+> From the webpage displaying Wikipedia, right click (or two fingers click on a Mac) and select the select the last option in the dropdown that you see, labeled "inspect".  The Google Developer console will either pop up on the right or the bottom of your screen.
 
 > From this webpage, look at the Chrome menubar at the top of the page. Click on "View", then select "Developer", then "Developer Tools". This will open the Google Developer Console.
 
