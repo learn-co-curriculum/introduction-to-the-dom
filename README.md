@@ -62,7 +62,7 @@ The best way to understand the Document Object Model, is to see and interact wit
 ![clicking-body](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/clicking-body.png)
 
 
-When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says `body`, and then press the delete button on your keyboard. You should the content of your wikipedia page disappear. You just deleted it!
+When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says `body`, and then press the delete button on your keyboard. You should see the content of your wikipedia page disappear. You just deleted it!
 
 ![deleted-body](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/deleted-wiki.png)
 
