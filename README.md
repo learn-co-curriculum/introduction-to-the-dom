@@ -18,7 +18,7 @@ Here's how you do it. From a Google chrome browser, go to the url of a webpage. 
 
 If you examine your browser, you will see the HTML used to construct the wikipedia.  It will look something like this:
 
-![wikipedia-html](./wikipedia-html.png)
+![wikipedia-html](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/wikipedia-html.png)
 
 The browser interprets the HTML you see, along with the styles (CSS) and Javascript to construct the appearances in the browser.  
 
@@ -51,7 +51,7 @@ The best way to understand the Document Object Model, is to see and interact wit
 
 #### 1. Open the console
 
-![opening-console](opening-console.gif)
+![opening-console](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/opening-console.gif)
 
 > From the webpage displaying Wikipedia, right click (or two fingers click on a Mac) and select the select the last option in the dropdown that you see, labeled "inspect".  The Google Develepor console will either pop up on the right or the bottom of your screen.
 
@@ -59,18 +59,18 @@ The best way to understand the Document Object Model, is to see and interact wit
 
 #### 2. Manipulate the DOM
 
-![clicking-body](./clicking-body.png)
+![clicking-body](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/clicking-body.png)
 
 
 When you open the Google Developer Console, you will see what looks like HTML. There are head tags, body tags, divs, etc. Now from inside the developer console, click on the element that says `body`, and then press the delete button on your keyboard. You should the content of your wikipedia page disappear. You just deleted it!
 
-![deleted-body](./deleted-wiki.png)
+![deleted-body](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/deleted-wiki.png)
 
 Now did you just delete the HTML? No. Let's prove it.
 
 View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source.  You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
 
-![html-source](./wikipedia-html.png)
+![html-source](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/wikipedia-html.png)
 
 The changes that the **developer console** caused, and the changes the **developer console** currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing header in our DOM, even though our HTML still has content in the header tags.  
 
