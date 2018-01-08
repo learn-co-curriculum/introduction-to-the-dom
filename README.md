@@ -102,7 +102,7 @@ Let's get to it.
 **Refresh your browser to get the body content back** Now let's start over and remove the body tag **with JavaScript**. Open up the console and type in the following and press Enter.
 
   ```javascript
-   document.querySelector('body')
+   document.querySelector('header')
   ```
 
 This will return something like this: 
