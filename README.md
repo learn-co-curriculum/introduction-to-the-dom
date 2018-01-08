@@ -68,11 +68,11 @@ When you open the Google Developer Console, you will see what looks like HTML. T
 
 Now did you just delete the HTML? No. Let's prove it.
 
-View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source.  You will see the that the HTML is just as it always was, with a header tag and lots of other elements inside.  
+View the page source. Right click (or two fingers click on the mac) on the lesson page in the browser and select view page source.  You will see the that the HTML is just as it always was, with a body tag and lots of other elements inside.  
 
 ![html-source](https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/introduction-to-dom/wikipedia-html.png)
 
-The changes that the **developer console** caused, and the changes the **developer console** currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing header in our DOM, even though our HTML still has content in the header tags.  
+The changes that the **developer console** caused, and the changes the **developer console** currently displays are changes in the *Document Object Model* (which we still didn't explain), but not in our *HTML*. Our webpage now looks blank, reflecting the missing body in our DOM, even though our HTML still has content in the body tags.  
 
 So what are we concluding? We're concluding that by changing the Document Object Model, we can change the way our webpage displays. And we can do this even if our HTML is unchanged.  
 
