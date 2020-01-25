@@ -77,7 +77,7 @@ Let's practice.
 ![opening-console](https://s3.amazonaws.com/learn-verified/opening-console.gif)
 
 > From this web page, look at the Chrome menubar at the top of the page. Click
-> on "View", then select "Developer", then "Developer Tools". This will open the
+> on "More tools", then select ""Developer Tools". This will open the
 > Google Developer Console.
 
 2.  Manipulate the DOM
