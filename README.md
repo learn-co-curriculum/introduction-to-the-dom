@@ -80,6 +80,8 @@ Let's practice.
 > on "More tools", then select ""Developer Tools". This will open the
 > Google Developer Console.
 
+![developer tools menu](https://curriculum-content.s3.amazonaws.com/js/developer-tools-menu.png)
+
 2.  Manipulate the DOM
 
 ![delete-header](http://web-dev-readme-photos.s3.amazonaws.com/js/header-click.png)
