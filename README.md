@@ -74,13 +74,16 @@ Let's practice.
 
 1.  Open the Google Developer console
 
+You can open the developer console by opening the context menu (click while
+holding `ctrl` on Mac) and choosing `Inspect`:
+
 ![opening-console](https://s3.amazonaws.com/learn-verified/opening-console.gif)
 
-> From this web page, look at the Chrome menubar at the top of the page. Click
+> Alternatively, from this web page, look at the Chrome menubar at the top of the page. Click
 > on "More tools", then select ""Developer Tools". This will open the
 > Google Developer Console.
 
-![developer tools menu](https://curriculum-content.s3.amazonaws.com/js/developer-tools-menu.png)
+![developer tools menu](https://curriculum-content.s3.amazonaws.com/js/developer-tools-menu.png =250x)
 
 2.  Manipulate the DOM
 
